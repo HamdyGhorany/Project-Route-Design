@@ -1,0 +1,425 @@
+.navbar {
+    font-family: 'Comfortaa', cursive;
+    z-index: 1;
+    transition: 1s;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: gainsboro;
+    transition: 1.5s;
+}
+.navbar-light .navbar-toggler-icon {
+   color: #fff;
+}
+@media screen and (max-width: 990px){
+    .navbar {
+        background-color: #fff !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none !important;
+    }
+}
+.oui {
+    display: none;
+    background-color: #000;
+    height: 40px;
+    width: 70px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 990px){
+   .oui {
+display: block;
+    } 
+}
+.bar1, bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 0px);
+}
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Home and Navbar */
+* {
+    transition: 3s;
+}
+
+.home {
+    background-image: url(../imgs/blue-2700749_960_720.jpg);
+    object-fit: cover;
+    background-size: 100% 100%;
+    height: 100%;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+
+}
+.bg-lite {
+}
+.caption {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+.caption h1 {
+    font-size: 50px;
+}
+
+.caption p {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    width: 100px !important;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+.navbar-collapse {
+    margin-right: 100px;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dc3545;
+    border-bottom: 1px solid #dc3545;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #dc3545;
+}
+
+/* End of home and Navbar */
+/* Start Over */
+.serv {
+}
+
+.serv h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.serv p {
+    opacity: 0.5;
+    padding: 10px;
+    color: #000;
+
+}
+
+
+
+.serv .btn {
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.serv .btn:hover {
+    background-color: #23bad2;
+    outline-style: hidden;
+
+}
+
+.service {
+    margin-top: 100px;
+    border: solid 3px rgba()0, 0, 0, 0.0;
+    color: #fff;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.serv h3 {
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    color: #000;
+
+}
+
+.service img {
+    width: 100%;
+    transition: 1s;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 50% 54%, 20% 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 50% 54%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+
+.service:hover img {
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+    cursor: grabbing;
+}
+.spi hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* End of Over */
+/* About */
+.about {
+    background-color: #fafafa;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.about img {
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    transition: 1s;
+
+}
+.for-img {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+       
+}
+
+
+.about h1::before {
+    content: "";
+    background-color: red;
+    width: 3px;
+    height: 7px;
+}
+
+.about img:hover {
+    transform: scale(0.7, 0.7);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+}
+
+.about p {
+    margin-top: 50px;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.about hr {
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about .btn {
+    margin-top: 40px;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.about h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+/* End about */
+/* Get Sure */
+.sure {
+    padding: 50px;
+}
+.sure img {
+    transition: 1s;
+
+}
+
+.sure img:hover {
+    transform: scale(0.7, 0.7);
+}
+
+.sure h1 {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 45px;
+}
+
+.sure .btn {
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.sure p {
+    color: #525252;
+    font-size: 12px;
+    font-family: 'Comfortaa', cursive;
+}
+.for-pre {
+       /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+        left: 0;
+}
+
+.sure hr {
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 15px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 15px;
+    line-height: 15px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 15px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 15px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.graf {}
+
+/* end about */
+/* Scroll */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: darkgray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: gainsboro;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: gainsboro;
+}
+
+/* scroll */
+/* check */
+
+.check
+{
+    font-family: 'Comfortaa', cursive;
+    background-color:  #000;
+    padding: 60px;
+
+}
+
+.check hr {
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* end check */
+/* copyrights */
+
+.check a {
+    color: #fff;
+    opacity: 0.5;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.check .rot {
+    transition: 1s;
+}
+
+.check .rot:hover {
+    transform: rotate(360deg);
+}
+
+.check p {
+    color: #fff;
+    opacity: 0.5;
+    font-family: 'Comfortaa', cursive;
+
+}
+.made p {
+    text-align: center;
+    color: #fff;
+}
